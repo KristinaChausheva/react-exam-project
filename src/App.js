@@ -1,13 +1,15 @@
 // import React from "react"
-import Nav from './components/Nav/Nav'
-import Dummy from './components/dummy/Dummy'
+
+import Layout from './components/Layout/Layout'
 
 function App() {
   return (
     <div className="App">
-      <Nav />
-      <Dummy />
-      Hello
+      <Layout>
+       
+        Hello
+      </Layout>
+      
     </div>
   );
 }
