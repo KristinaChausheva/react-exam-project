@@ -1,11 +1,10 @@
 // import React from 'react'
 import Hoc from '../../hoc/Hoc'
-import Nav from '../../components/Nav/Nav'
-import Dummy from '../../components/dummy/Dummy'
+import Header from '../../components/Header/Header'
 
 const Layout = (props) => (
     <Hoc>
-        <Nav></Nav>
+        <Header></Header>
         <main>{props.children}</main>
     </Hoc>
     
