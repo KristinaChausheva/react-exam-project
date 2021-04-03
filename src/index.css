@@ -2,6 +2,8 @@ body {
   background-color: rgb(238, 204, 204);
 }
 
+/* header */
+
 header {
   height: 56px;
   width: 100%;
@@ -19,4 +21,40 @@ header {
 
 header nav {
   height: 100%;
+}
+
+/* nav */
+.navItems {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+/* navItem */
+
+.navItem {
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.navItem a {
+  color: white;
+  text-decoration: none;
+  padding: 16px 10px;
+  border-bottom: 4px solid transparent;
+  box-sizing: border-box;
+  display: block;
+}
+
+.navItem a:hover,
+.navItem a:active,
+.navItem a.active {
+  background-color: white;
+  color: black;
 }

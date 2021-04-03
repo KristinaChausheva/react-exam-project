@@ -9,7 +9,6 @@ function Header (props){
         <div>MENU</div>
         <Logo />
         <Nav />
-        <nav> ... </nav>
     </header>
     )
     

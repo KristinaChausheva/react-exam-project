@@ -1,9 +1,12 @@
+import NavItem from '../NavItem/NavItem'
+
 const nav = (props) => (
-    <ul>
-        <li>About</li>
-        <li>Menu</li>
-        <li>Blog</li>
-        <li>Contact</li>
+    <ul className="navItems">
+       <NavItem />
+       <NavItem link="/" active>Home</NavItem>
+       <NavItem link="/about">About</NavItem>
+       <NavItem link="/blog">Blog</NavItem>
+       <NavItem link="/contact">Contact</NavItem>
     </ul>
 )
 
